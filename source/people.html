@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <div class="navigation">
+            <a class="active" href="#home">Home</a>
+            <a href="#career">Jobs and Salary</a>
+            <a href="#major">CS Majors</a>
+            <a href="#resources">CS Resources</a>
+            <a href="#people">People in CS</a>
+          </div>
+    </header>
+    <body>
+        <h1>How to prepare to be a Computer Science Major</h1>
+        <p>Do a lot of CS stuff</p>
+        <!-- accordion -->
+        <button type="button" class="collapse"> Grace Hopper</button>
+        <div class="people_content">
+            <p> Grace Hopper.....</p>
+        </div>
+    </body>
+
+
+
+    <script>
+        var bar = document.getElementsByClassName('collapse');
+        var i;
+        for (i = 0; i < bar.length; i++)
+        {
+            bar[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var people_content = this.nextElementSibling;
+                if(people_content.style.display === "block")
+                {
+                    people_content.style.display = "none";
+            
+                }
+                else{
+                    people_content.style.display = "block";
+                }
+            });
+        }
+
+
+
+    </script>
+</html>
