@@ -22,6 +22,6 @@
   
   /* Add a color to the active/current link */
   .navigation a.active {
-    background-color: #gray;
+    background-color: #A9A9A9;
     color: white;
   }
