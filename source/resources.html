@@ -5,38 +5,13 @@
         <!-- title -->
     </header>
     <body>
-        <!-- accordion -->
-        <button type="button" class="collapse"> Grace Hopper</button>
-        <div class="people_content">
-            <p> Grace Hopper.....</p>
-        </div>
+    
 
 
 
 
 
 
-        <script>
-            var bar = document.getElementsByClassName('collapse');
-            var i;
-            for (i = 0; i < bar.length; i++)
-            {
-                bar[i].addEventListener("click", function() {
-                    this.classList.toggle("active");
-                    var people_content = this.nextElementSibling;
-                    if(people_content.style.display === "block")
-                    {
-                        people_content.style.display = "none";
-                
-                    }
-                    else{
-                        people_content.style.display = "block";
-                    }
-                });
-            }
 
-
-
-        </script>
     </body>
 </html>
