@@ -1,4 +1,9 @@
+ h1 {
+   text-align: center;
 
+ }
+ 
+ /* Menu */ 
 .navigation {
     background-color: #9cadb7;
     overflow: hidden;
@@ -28,34 +33,49 @@
 
 
 
-
-  /* 
-  People in CS Page
-  */ 
+  /* People in CS Page */ 
   
-  /* Style the button that is used to open and close the collapsible content */
 .collapse {
   background-color: #A9A9A9; /* for info */
-  color: #ffffff;
   cursor: pointer;
-  padding: 18px;
-  width: 60%;
+  padding: 20px;
+  width: 100%;
   border: none;
-  text-align: left;
+  text-align: middle;
   outline: none;
-  font-size: 18px;
+  font-size: 25px;
+  
 }
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .collapse:hover {
+.open, .collapse:hover {
   background-color: #d6d2c4;
   color: #000000;
 }
 
-/* Style the collapsible content. Note: hidden by default */
+.collapse:after {
+  content: url(../images/Binary.png);
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+
+}
+ .open:after {
+  content: url(../images/binary_2.png);
+}
+
 .people_content {
   padding: 0 18px;
-  display: none;
-  overflow: hidden;
   background-color: #A9A9A9;
+  max-height: 0;
+  overflow: hidden;
+  width: 90%;
+  transition: 0.2s ease-out;
+  display: block;
 }
+.accordion_container {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  width: 50%;
+  }
+/* ..................................... */
