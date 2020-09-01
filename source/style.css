@@ -1,31 +1,194 @@
+ h1 {
+   text-align: center;
 
+ }
+ h2 {
+  text-align: center;
+}
+
+
+ 
+ 
+ /* Menu */ 
 .navigation {
-    background-color: #333;
+    background-color: #9cadb7;
     overflow: hidden;
   }
   
-  /* Style the links inside the navigation bar */
   .navigation a {
     float: left;
     color: #f2f2f2;
-    text-align: center;
+    text-align: right;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
   }
   
-  /* Change the color of links on hover */
+
   .navigation a:hover {
-    background-color: #ddd;
+    background-color: #d6d2c4;
     color: black;
   }
-  
-  /* Add a color to the active/current link */
+
   .navigation a.active {
-    background-color: #gray;
+    background-color: #A9A9A9;
     color: white;
   }
 
+
+
+
+
+  /* People in CS Page */ 
+  
+.collapse {
+  background-color: #A9A9A9; /* for info */
+  cursor: pointer;
+  padding: 20px;
+  width: 100%;
+  border: none;
+  text-align: middle;
+  outline: none;
+  font-size: 25px;
+  
+}
+
+.open, .collapse:hover {
+  background-color: #d6d2c4;
+  color: #000000;
+}
+
+.collapse:after {
+  content: url(../images/Binary.png);
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+
+}
+ .open:after {
+  content: url(../images/binary_2.png);
+}
+
+.people_content {
+  padding: 0 18px;
+  background-color: #A9A9A9;
+  max-height: 0;
+  overflow: hidden;
+  width: 95%;
+  transition: 0.2s ease-out;
+  display: block;
+}
+.accordion_container {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  width: 60%;
+  }
+/* ..................................... */
+
+
+/* Resources Page */
+
+.back {
+  background-image: url(../images/laptop.png);
+  height: 600px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position-x: center;
+
+  
+ }
+ .button1 {
+  left: 30%;
+  top: 20%;
+  display: inline;
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #A9A9A9;
+  border-radius: 6px;
+  outline: none;
+  position: absolute;
+ }
+ .button2 {
+  left: 42%;
+  top: 20%;
+  display: inline;
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #A9A9A9;
+  border-radius: 6px;
+  outline: none;
+  position: absolute;
+ }
+ .button3 {
+  left: 60%;
+  top: 20%;
+  display: inline;
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #A9A9A9;
+  border-radius: 6px;
+  outline: none;
+  position: absolute;
+ }
+ .button4 {
+  left: 30%;
+  top: 45%;
+  display: inline;
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #A9A9A9;
+  border-radius: 6px;
+  outline: none;
+  position: absolute;
+ }
+ .button5 {
+  left: 45%;
+  top: 45%;
+  display: inline;
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #A9A9A9;
+  border-radius: 6px;
+  outline: none;
+  position: absolute;
+ }
+ .button6 {
+  left: 60%;
+  top: 45%;
+  display: inline;
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #A9A9A9;
+  border-radius: 6px;
+  outline: none;
+  position: absolute;
+ }
+ .title {
+  text-align: center;
+  padding-top: 6%;
+  font-weight: bold;
+}
+.title2 {
+  text-align: center;
+  padding-top: 10%;
+  font-weight: bold;
+}
+
+
+/* ..................................... */
   .accordion {
     background-color: rgb(138, 121, 91);
     color: #444;

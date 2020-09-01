@@ -3,21 +3,52 @@
     <header>
         <link rel="stylesheet" href="style.css">
         <div class="navigation">
-            <a href="#home">Home</a>
-            <a href="#career">Jobs and Salary</a>
-            <a href="#major">CS Majors</a>
-            <a href="#resources">CS Resources</a>
-            <a class="active" href="#people">People in CS</a>
+            <a href="index.html">Home</a>
+            <a href="career.html">Jobs and Salary</a>
+            <a href="major.html">CS Majors</a>
+            <a href="resources.html">CS Resources</a>
+            <a class="active" href="people.html">People in CS</a>
           </div>
+          <h1>Important People in Computer Science</h1>
     </header>
+
     <body>
-        <h1>How to prepare to be a Computer Science Major</h1>
-        <p>Do a lot of CS stuff</p>
         <!-- accordion -->
+        <div class="accordion_container">
+
         <button type="button" class="collapse"> Grace Hopper</button>
         <div class="people_content">
-            <p> Grace Hopper.....</p>
+            <h3> Grace Hopper is known as one of the first computer scientists. She joined
+                the US Navy during WWII and helped program the Mark I computer. When she helped program
+            the Mark II computer, she found a moth stuck inside a component of the computer, thus 
+            coining the technical term 'bug' and 'debug'. </h3>
         </div>
+
+        <button type="button" class="collapse"> Alan Turing</button>
+        <div class="people_content">
+            <h3> Alan Turing is known for 'the Turing test.' Turing broke ciphers in WWII and he wrote
+                of Artificial Intelligence in 1950. The Turing test is a test for intelligence standard in tech
+                and is also known as the 'imitation game'. 
+            </h3>
+        </div>
+
+        <button type="button" class="collapse"> Ada Lovelace</button>
+        <div class="people_content">
+            <h3> Ada Lovelace is considered 'the world's first computer programmer' at the age
+                of 17. She helped Charles Babbage with his analytical engine, which is known to be
+                the precursor to the computer. The computer language 'Ada' is in memorial of her. </h3>
+        </div>
+
+        <button type="button" class="collapse"> John Von Neumann</button>
+        <div class="people_content">
+            <h3> John von Neumann is known for von Neumann architecture. In 1945, von Neumann 
+                started working on the EDVAC, one of the earliest electronic computers. He made
+                major contributions with this project through the discovery of a way both a program 
+                data can be stored in a computers memory. He also is known as the inventor of the merge
+                sort algorithm, which is widely used today.
+            </h3>
+        </div>
+    </div>
     </body>
 
 
@@ -25,18 +56,14 @@
     <script>
         var bar = document.getElementsByClassName('collapse');
         var i;
-        for (i = 0; i < bar.length; i++)
-        {
+        for (i = 0; i < bar.length; i++){
             bar[i].addEventListener("click", function() {
-                this.classList.toggle("active");
+                this.classList.toggle("open");
                 var people_content = this.nextElementSibling;
-                if(people_content.style.display === "block")
-                {
-                    people_content.style.display = "none";
-            
-                }
-                else{
-                    people_content.style.display = "block";
+                if(people_content.style.maxHeight){
+                    people_content.style.maxHeight = null;
+                } else{
+                    people_content.style.maxHeight =  people_content.scrollHeight + "px";
                 }
             });
         }
