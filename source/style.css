@@ -2,6 +2,12 @@
    text-align: center;
 
  }
+ h2 {
+  text-align: center;
+}
+
+
+ 
  
  /* Menu */ 
 .navigation {
@@ -68,7 +74,7 @@
   background-color: #A9A9A9;
   max-height: 0;
   overflow: hidden;
-  width: 90%;
+  width: 95%;
   transition: 0.2s ease-out;
   display: block;
 }
@@ -76,6 +82,110 @@
   position: absolute;
   left: 50%;
   transform: translate(-50%);
-  width: 50%;
+  width: 60%;
   }
+/* ..................................... */
+
+
+/* Resources Page */
+
+.back {
+  background-image: url(../images/laptop.png);
+  height: 600px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position-x: center;
+
+  
+ }
+ .button1 {
+  left: 30%;
+  top: 20%;
+  display: inline;
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #A9A9A9;
+  border-radius: 6px;
+  outline: none;
+  position: absolute;
+ }
+ .button2 {
+  left: 42%;
+  top: 20%;
+  display: inline;
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #A9A9A9;
+  border-radius: 6px;
+  outline: none;
+  position: absolute;
+ }
+ .button3 {
+  left: 60%;
+  top: 20%;
+  display: inline;
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #A9A9A9;
+  border-radius: 6px;
+  outline: none;
+  position: absolute;
+ }
+ .button4 {
+  left: 30%;
+  top: 45%;
+  display: inline;
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #A9A9A9;
+  border-radius: 6px;
+  outline: none;
+  position: absolute;
+ }
+ .button5 {
+  left: 45%;
+  top: 45%;
+  display: inline;
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #A9A9A9;
+  border-radius: 6px;
+  outline: none;
+  position: absolute;
+ }
+ .button6 {
+  left: 60%;
+  top: 45%;
+  display: inline;
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #A9A9A9;
+  border-radius: 6px;
+  outline: none;
+  position: absolute;
+ }
+ .title {
+  text-align: center;
+  padding-top: 6%;
+  font-weight: bold;
+}
+.title2 {
+  text-align: center;
+  padding-top: 10%;
+  font-weight: bold;
+}
+
+
 /* ..................................... */
