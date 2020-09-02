@@ -133,19 +133,19 @@
 }
 
 .collapse:after {
-  content: url(../images/Binary.png);
+  content: url("images/Binary.png");
   font-weight: bold;
   float: right;
   margin-left: 5px;
 
 }
  .open:after {
-  content: url(../images/binary_2.png);
+  content: url("images/binary_2.png");
 }
 
 .people_content {
   padding: 0 18px;
-  background-color: #A9A9A9;
+  background-color: #ffffff;
   max-height: 0;
   overflow: hidden;
   width: 95%;
@@ -164,7 +164,7 @@
 /* Resources Page */
 
 .back {
-  background-image: url(../images/laptop.png);
+  background-image: url("images/laptop.png");
   height: 600px;
   position: relative;
   background-repeat: no-repeat;
