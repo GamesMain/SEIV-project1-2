@@ -169,14 +169,13 @@
   position: relative;
   background-repeat: no-repeat;
   background-position-x: center;
-
-  
  }
+
  .button1 {
   left: 30%;
-  top: 20%;
+  top: 10em;
   display: inline;
-  padding: 20px 40px;
+  padding: 20px 30px;
   text-align: center;
   text-decoration: none;
   color: #ffffff;
@@ -185,11 +184,12 @@
   outline: none;
   position: absolute;
  }
+
  .button2 {
   left: 42%;
-  top: 20%;
+  top: 10em;
   display: inline;
-  padding: 20px 40px;
+  padding: 20px 30px;
   text-align: center;
   text-decoration: none;
   color: #ffffff;
@@ -200,9 +200,9 @@
  }
  .button3 {
   left: 60%;
-  top: 20%;
+  top: 10em;
   display: inline;
-  padding: 20px 40px;
+  padding: 20px 30px;
   text-align: center;
   text-decoration: none;
   color: #ffffff;
@@ -213,9 +213,9 @@
  }
  .button4 {
   left: 30%;
-  top: 45%;
+  top: 20em;
   display: inline;
-  padding: 20px 40px;
+  padding: 20px 30px;
   text-align: center;
   text-decoration: none;
   color: #ffffff;
@@ -226,9 +226,9 @@
  }
  .button5 {
   left: 45%;
-  top: 45%;
+  top: 20em;
   display: inline;
-  padding: 20px 40px;
+  padding: 20px 30px;
   text-align: center;
   text-decoration: none;
   color: #ffffff;
@@ -239,25 +239,26 @@
  }
  .button6 {
   left: 60%;
-  top: 45%;
+  top: 20em;
   display: inline;
-  padding: 20px 40px;
+  padding: 20px 30px;
   text-align: center;
   text-decoration: none;
   color: #ffffff;
-  background-color: #A9A9A9;
   border-radius: 6px;
+  background-color: #A9A9A9;
   outline: none;
   position: absolute;
  }
+
  .title {
   text-align: center;
-  padding-top: 6%;
+  padding-top: 7em;
   font-weight: bold;
 }
 .title2 {
   text-align: center;
-  padding-top: 8%;
+  padding-top: 9em;
   font-weight: bold;
 }
 
