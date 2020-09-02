@@ -133,14 +133,14 @@
 }
 
 .collapse:after {
-  content: url("Binary.png");
+  content: url("images/Binary.png");
   font-weight: bold;
   float: right;
   margin-left: 5px;
 
 }
  .open:after {
-  content: url("binary_2.png");
+  content: url("images/binary_2.png");
 }
 
 .people_content {
@@ -164,7 +164,7 @@
 /* Resources Page */
 
 .back {
-  background-image: url(../images/laptop.png);
+  background-image: url("images/laptop.png");
   height: 600px;
   position: relative;
   background-repeat: no-repeat;
