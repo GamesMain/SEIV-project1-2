@@ -63,32 +63,27 @@
         
       </div>
       </body>
-		<script>
-            var acc = document.getElementsByClassName("accordion");
-            var i;
-            
-            for (i = 0; i < acc.length; i++) {
-              acc[i].addEventListener("click", function() {
-                this.classList.toggle("active");
-                var panel = this.nextElementSibling;
-                if (panel.style.display === "block") {
-                  panel.style.display = "none";
-                } else {
-                  panel.style.display = "block";
+      <script>
+        var bar = document.getElementsByClassName('collapse');
+        var i;
+        for (i = 0; i < bar.length; i++){
+            bar[i].addEventListener("click", function() {
+                this.classList.toggle("open");
+                var people_content = this.nextElementSibling;
+                if(people_content.style.maxHeight){
+                    people_content.style.maxHeight = null;
+                } else{
+                    people_content.style.maxHeight =  people_content.scrollHeight + "px";
                 }
-              });
-            }
-            </script>
+            });
+        }
 
 
-     <!-- Blank Career Entry
 
-        <button class="accordion">-CAREER</button>
-		<div class="panel">
-		  <p>DESCRIPTION<br><br>
-		  SALARY
-		  </p>
-        </div> 	   
+    </script>
+
+
+     <!-- Blank Career Entry	   
         
         source for salary and job information https://www.thebalancecareers.com/top-jobs-for-computer-science-majors-2059634
     -->
