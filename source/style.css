@@ -32,9 +32,9 @@
 
 .link3 {
   position: absolute;
-  width: 25%;
+  width: 20%;
   left: 55%;
-  top: 50%;
+  top: 49%;
 
 }
 
@@ -48,7 +48,7 @@
 .image {
   opacity: 1;
   display: block;
-  width: 100%;
+  width: 75%;
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden; 
